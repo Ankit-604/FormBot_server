@@ -34,4 +34,6 @@ router.put("/analytics/:id", updateAnalytics);
 router.get("/analytics/:id", getAnalytics);
 router.post("/access/workspaces/:id", addWorkSpaces);
 router.get("/access/workspaces/:id", getWorkSpaces);
+router.get("/formbot", getFormResponses);
+
 module.exports = router;
